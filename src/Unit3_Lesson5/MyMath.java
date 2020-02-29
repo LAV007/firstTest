@@ -39,4 +39,6 @@ public class MyMath {
     public static void getCount(){
     System.out.println(count);
     }
+    
+    // Проверка коммита
 }
