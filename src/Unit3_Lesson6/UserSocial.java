@@ -1,0 +1,35 @@
+/*
+ * by Alex Lysogora
+ * Each line should be prefixed with  * 
+ */
+package Unit3_Lesson6;
+
+/**
+ *
+ * @author vbg47
+ */
+public class UserSocial extends User {
+        
+    private String name;
+    private int age;
+    
+    public UserSocial(int id, String login, String password, String name, int age){
+    super(id, login, password);    
+    this.age = age;
+    this.name = name;   
+    }
+    
+    public void setName(String name){
+    this.name = name;
+    }
+    public String getName(){
+    return name;
+    }
+    
+    public void setAge(int a){
+    a = age;
+    }
+    public int getAge(){
+    return age;
+    }
+}
